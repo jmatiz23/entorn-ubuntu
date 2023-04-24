@@ -1,5 +1,5 @@
 #!/bin/sh
-
+DEBIAN_FRONTEND=noninteractive
 export CONDA_PREFIX=/opt/miniconda3
 
 sudo mkdir -p /opt
@@ -27,4 +27,5 @@ rm Miniconda3-latest-Linux-x86_64.sh
 /opt/miniconda3/bin/conda update --all --yes
 
 sudo chown -R $USER:$USER /opt/miniconda3
+sudo rm -f /opt/conda
 sudo ln -s /opt/miniconda3 /opt/conda

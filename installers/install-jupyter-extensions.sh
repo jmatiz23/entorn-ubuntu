@@ -1,5 +1,5 @@
 #!/bin/sh
-
+DEBIAN_FRONTEND=noninteractive
 conda install -c conda-forge --yes \
   jupyter_nbextensions_configurator \
   jupyter_contrib_nbextensions \

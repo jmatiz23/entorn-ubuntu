@@ -40,8 +40,6 @@ sudo sh -c "echo \"root:pluralcamp\" | chpasswd "
 
 ./install-miniconda3.sh
 
-./customize-jupyter.sh
-
 ./install-node.sh
 
 ./install-code-server.sh
@@ -56,7 +54,7 @@ cd ..
 
 ./install-chrome.sh
 
-#./install-turbovnc.sh
+./install-turbovnc.sh
 
 cd ..
 exit 0

@@ -1,5 +1,5 @@
 #!/bin/bash
-
+DEBIAN_FRONTEND=noninteractive
 # Enable exit on error
 set -e
 # Show all commands
@@ -10,7 +10,7 @@ echo "Installing Firefox browser ..."
 echo ""
 
 #  install firefox browser (ubuntu 22.04)
-sudo add-apt-repository ppa:mozillateam/ppa
+sudo add-apt-repository ppa:mozillateam/ppa --yes
 
 echo '
 Package: *

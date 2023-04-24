@@ -1,5 +1,5 @@
 #!/bin/bash
-
+DEBIAN_FRONTEND=noninteractive
 # Stops script execution if a command has an error
 set -e
 

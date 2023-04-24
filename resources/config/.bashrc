@@ -166,11 +166,10 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
-alias juprun='jupyter lab --no-browser'
+alias jupyterlabno='jupyter lab --no-browser'
 NPM_PACKAGES="$CONDA_BASE_PATH/share/npm-packages"
 export PATH="$PATH:$NPM_PACKAGES/bin"
-alias juprun='jupyter lab --no-browser'
-alias juprun='jupyter lab --no-browser'
-alias juprun='jupyter lab --no-browser'
-alias juprun='jupyter lab --no-browser'
-alias juprun='jupyter lab --no-browser'
+alias jupyterlab='jupyter lab'
+
+export PATH=$PATH:/opt/apps/eclipse
+

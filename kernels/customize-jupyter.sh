@@ -13,11 +13,13 @@ sed -i 's/"Python 3 (ipykernel)"/"Python 3"/g'   $CONDA_BASE_PATH/share/jupyter/
 
 # tslab
 if [ -d "$CONDA_BASE_PATH/share/jupyter/kernels/jslab" ]; then
+	rm -rf $CONDA_BASE_PATH/share/jupyter/kernels/javascript
 	mv $CONDA_BASE_PATH/share/jupyter/kernels/jslab $CONDA_BASE_PATH/share/jupyter/kernels/javascript
 	echo "Moved jslab to javascript"
 fi
 
 if [ -d "$CONDA_BASE_PATH/share/jupyter/kernels/tslab" ]; then
+	rm -rf $CONDA_BASE_PATH/share/jupyter/kernels/typescript
 	mv $CONDA_BASE_PATH/share/jupyter/kernels/tslab $CONDA_BASE_PATH/share/jupyter/kernels/typescript
 	echo "Moved tslab to typescript"
 fi

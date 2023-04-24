@@ -1,5 +1,5 @@
 #!/bin/bash
-
+DEBIAN_FRONTEND=noninteractive
 # If you're reading this on the GitHub gist, scroll down for instructions.
 # If not, go to https://gist.github.com/1071034
 

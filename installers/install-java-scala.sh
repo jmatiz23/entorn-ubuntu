@@ -1,5 +1,5 @@
 #!/bin/bash
-
+DEBIAN_FRONTEND=noninteractive
 # Enable exit on error
 set -e
 # Show all commands

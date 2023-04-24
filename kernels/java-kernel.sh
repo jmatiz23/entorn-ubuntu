@@ -11,7 +11,7 @@ IJAVA_VERSION=1.3.0
 ## Copy resources
 sudo mkdir -p $RESOURCES_PATH
 sudo chown $USER:1000 -R $RESOURCES_PATH
-cp -r ./resources/* $RESOURCES_PATH/
+cp -r ../resources/* $RESOURCES_PATH/
 
 
 echo "Installing java kernel ..."

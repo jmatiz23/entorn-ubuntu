@@ -1,5 +1,5 @@
 #!/bin/bash
-
+DEBIAN_FRONTEND=noninteractive
 RESOURCES_PATH=./resources
 NB_USER=$USER
 
