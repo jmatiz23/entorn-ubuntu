@@ -20,7 +20,7 @@ cd ..
 
 ./install-chrome.sh
 
-./install-turbovnc.sh
+# ./install-turbovnc.sh
 
 cd ..
 exit 0

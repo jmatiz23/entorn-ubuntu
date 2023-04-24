@@ -43,6 +43,6 @@ sudo sh -c "echo \"root:pluralcamp\" | chpasswd "
 cd ..
 
 /opt/miniconda3/bin/conda init bash
-conda activate
+echo "Logout and log in again, now."
 
 exit 0

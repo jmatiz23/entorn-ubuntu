@@ -63,8 +63,12 @@ sudo apt-get remove -y app-install-data gnome-user-guide
 
 
 sudo apt install gnome-session gdm3 --yes
-sudo apt install tasksel --yes
-sudo tasksel install ubuntu-desktop 
+sudo apt install ubuntu-gnome-desktop --yes
+
+#sudo apt install tasksel --yes
+#sudo tasksel install ubuntu-desktop 
+#sudo tasksel
+
 
 sudo mkdir -p /etc/gdm3
 

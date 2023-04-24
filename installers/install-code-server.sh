@@ -5,6 +5,8 @@ DEBIAN_FRONTEND=noninteractive
 set -e
 
 RESOURCES_PATH=/resources
+sudo mkdir -p $RESOURCES_PATH
+sudo chown $USER:$USER $RESOURCES_PATH -R
 NB_USER=$USER
 NB_GID=1000
 
