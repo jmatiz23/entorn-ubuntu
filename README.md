@@ -7,7 +7,9 @@
 guiApplications=false
 ```
 
-- Run install-all.sh
+- Run install-1.sh
+- Log out and log in again
+- Run install-2.sh
 - Run install-kernels.sh
 
 ## Adding desktop

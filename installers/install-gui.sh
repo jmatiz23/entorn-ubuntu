@@ -61,8 +61,12 @@ sudo apt-get purge -y pm-utils xscreensaver*
 # Large package: gnome-user-guide 50MB app-install-data 50MB
 sudo apt-get remove -y app-install-data gnome-user-guide
 
+
+sudo apt install gnome-session gdm3 --yes
 sudo apt install tasksel --yes
-sudo tasksel
+sudo tasksel install ubuntu-desktop 
+
+sudo mkdir -p /etc/gdm3
 
 sudo sh -c 'echo "AutomaticLoginEnable=true" >> /etc/gdm3/custom.conf'
 sudo sh -c "AutomaticLogin=$USER >>/etc/gdm3/custom.conf"

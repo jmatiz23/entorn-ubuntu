@@ -40,21 +40,9 @@ sudo sh -c "echo \"root:pluralcamp\" | chpasswd "
 
 ./install-miniconda3.sh
 
-./install-node.sh
-
-./install-code-server.sh
-
-./install-eclipse.sh
-
-cd jetty
-./install.sh
 cd ..
 
-#./install-gui.sh
+/opt/miniconda3/bin/conda init bash
+conda activate
 
-./install-chrome.sh
-
-./install-turbovnc.sh
-
-cd ..
 exit 0
