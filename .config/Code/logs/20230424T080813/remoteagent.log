@@ -1,0 +1,95 @@
+2023-04-24 08:08:13.387 [info] 
+
+
+
+
+2023-04-24 08:08:13.420 [info] Extension host agent started.
+2023-04-24 08:08:13.437 [info] Started initializing default profile extensions in extensions installation folder. file:///home/orboan/jupyter-wsl/.vscode/extensions
+2023-04-24 08:08:13.448 [error] Error: Unable to resolve nonexistent file '/home/orboan/jupyter-wsl/.vscode/extensions'
+    at w.resolve (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:92:18144)
+    at async fe.k (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:56575)
+    at async fe.scanExtensions (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:56323)
+    at async p.scanUserExtensions (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:48844)
+    at async /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:50948
+    at async p.initializeDefaultProfileExtensions (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:50724)
+    at async k.m (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:115:1199)
+2023-04-24 08:08:13.458 [error] Error: Unable to resolve nonexistent file '/home/orboan/jupyter-wsl/.vscode/extensions'
+    at w.resolve (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:92:18144)
+    at async fe.k (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:56575)
+    at async fe.scanExtensions (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:56323)
+    at async p.scanUserExtensions (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:48844)
+    at async ie.scanAllUserExtensions (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:155:11995)
+    at async k.C (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:115:3591)
+    at async k.m (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:115:1291)
+2023-04-24 08:08:14.427 [error] Error: Unable to resolve nonexistent file '/home/orboan/jupyter-wsl/.vscode/extensions'
+    at w.resolve (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:92:18144)
+    at async ne.mb (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:155:9505)
+2023-04-24 08:08:14.455 [info] [127.0.0.1][69481be6][ManagementConnection] New connection established.
+2023-04-24 08:08:15.112 [info] Started initializing default profile extensions in extensions installation folder. file:///home/orboan/jupyter-wsl/.vscode/extensions
+2023-04-24 08:08:15.300 [error] Error: Unable to resolve nonexistent file '/home/orboan/jupyter-wsl/.vscode/extensions'
+    at w.resolve (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:92:18144)
+    at async fe.k (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:56575)
+    at async fe.scanExtensions (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:56323)
+    at async p.scanUserExtensions (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:48844)
+    at async /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:50948
+2023-04-24 08:08:15.444 [info] [127.0.0.1][ec4804a3][ExtensionHostConnection] New connection established.
+2023-04-24 08:08:15.490 [info] Started initializing default profile extensions in extensions installation folder. file:///home/orboan/jupyter-wsl/.vscode/extensions
+2023-04-24 08:08:15.495 [info] [127.0.0.1][ec4804a3][ExtensionHostConnection] <29314> Launched Extension Host Process.
+2023-04-24 08:08:15.594 [error] Error: Unable to resolve nonexistent file '/home/orboan/jupyter-wsl/.vscode/extensions'
+    at w.resolve (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:92:18144)
+    at async fe.k (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:56575)
+    at async fe.scanExtensions (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:56323)
+    at async p.scanUserExtensions (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:48844)
+    at async /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:50948
+2023-04-24 08:08:15.725 [info] Started initializing default profile extensions in extensions installation folder. file:///home/orboan/jupyter-wsl/.vscode/extensions
+2023-04-24 08:08:15.880 [error] Error: Unable to resolve nonexistent file '/home/orboan/jupyter-wsl/.vscode/extensions'
+    at w.resolve (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:92:18144)
+    at async fe.k (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:56575)
+    at async fe.scanExtensions (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:56323)
+    at async p.scanUserExtensions (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:48844)
+    at async /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:50948
+2023-04-24 08:08:16.110 [info] Started initializing default profile extensions in extensions installation folder. file:///home/orboan/jupyter-wsl/.vscode/extensions
+2023-04-24 08:08:16.191 [error] Error: Unable to resolve nonexistent file '/home/orboan/jupyter-wsl/.vscode/extensions'
+    at w.resolve (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:92:18144)
+    at async fe.k (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:56575)
+    at async fe.scanExtensions (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:56323)
+    at async p.scanUserExtensions (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:48844)
+    at async /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:50948
+    at async p.scanUserExtensions (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:48967)
+    at async Promise.all (index 1)
+    at async p.scanAllExtensions (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:48018)
+    at async ie.scanExtensions (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:155:11775)
+    at async m.call (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:87:25730)
+2023-04-24 08:08:17.525 [info] Started initializing default profile extensions in extensions installation folder. file:///home/orboan/jupyter-wsl/.vscode/extensions
+2023-04-24 08:08:17.574 [error] Error: Unable to resolve nonexistent file '/home/orboan/jupyter-wsl/.vscode/extensions'
+    at w.resolve (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:92:18144)
+    at async fe.k (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:56575)
+    at async fe.scanExtensions (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:56323)
+    at async p.scanUserExtensions (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:48844)
+    at async /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:50948
+    at async p.scanUserExtensions (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:48967)
+    at async Promise.all (index 1)
+    at async p.scanAllExtensions (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:48018)
+    at async ie.scanExtensions (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:155:11775)
+    at async m.call (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:87:25730)
+2023-04-24 08:08:17.614 [info] Started initializing default profile extensions in extensions installation folder. file:///home/orboan/jupyter-wsl/.vscode/extensions
+2023-04-24 08:08:17.653 [error] Error: Unable to resolve nonexistent file '/home/orboan/jupyter-wsl/.vscode/extensions'
+    at w.resolve (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:92:18144)
+    at async fe.k (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:56575)
+    at async fe.scanExtensions (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:56323)
+    at async p.scanUserExtensions (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:48844)
+    at async /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:50948
+    at async p.scanUserExtensions (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:48967)
+    at async Promise.all (index 1)
+    at async p.scanAllExtensions (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:48018)
+    at async ie.scanExtensions (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:155:11775)
+    at async m.call (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:87:25730)
+2023-04-24 08:08:17.664 [info] Started initializing default profile extensions in extensions installation folder. file:///home/orboan/jupyter-wsl/.vscode/extensions
+2023-04-24 08:08:17.666 [error] Error: Unable to resolve nonexistent file '/home/orboan/jupyter-wsl/.vscode/extensions'
+    at w.resolve (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:92:18144)
+    at async fe.k (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:56575)
+    at async fe.scanExtensions (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:56323)
+    at async p.scanUserExtensions (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:48844)
+    at async /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:50948
+2023-04-24 08:08:36.662 [info] [127.0.0.1][69481be6][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-04-24 08:08:36.674 [info] [127.0.0.1][ec4804a3][ExtensionHostConnection] <29314> Extension Host Process exited with code: 0, signal: null.
