@@ -6,7 +6,7 @@ KERNELS_DIR=$CONDA_BASE_PATH/share/jupyter/kernels
 
 sudo mkdir -p $RESOURCES
 sudo chmod 777 $RESOURCES
-cp -r ./resources/* $RESOURCES/
+cp -r ../resources/* $RESOURCES/
 
 # python
 sed -i 's/"Python 3 (ipykernel)"/"Python 3"/g'   $CONDA_BASE_PATH/share/jupyter/kernels/python3/kernel.json
@@ -45,7 +45,7 @@ fi
 
 ## Server customization
 sudo mkdir -p /etc/jupyter
-sudo cp ./resources/config/jupyter_server_config.py /etc/jupyter/
+sudo cp ../resources/config/jupyter_server_config.py /etc/jupyter/
 
 jupyter_run_alias=jupyterlab
 if grep -q "$jupyter_run_alias" $HOME/.bashrc
@@ -56,7 +56,7 @@ else
 fi
 
 #######
-RESOURCES_PATH=./resources
+RESOURCES_PATH=../resources
 NB_USER=$USER
 NB_GID=$USER
 
