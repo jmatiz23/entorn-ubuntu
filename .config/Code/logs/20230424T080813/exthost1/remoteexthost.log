@@ -1,6 +1,0 @@
-2023-04-24 08:08:16.180 [info] Extension host with pid 29314 started
-2023-04-24 08:08:16.199 [info] Lock '/home/orboan/jupyter-wsl/.config/Code/User/workspaceStorage/187cf76e/vscode.lock': Lock acquired.
-2023-04-24 08:08:16.266 [info] Eager extensions activated
-2023-04-24 08:08:36.661 [info] Extension host terminating: received terminate message from renderer
-2023-04-24 08:08:36.662 [info] Lock '/home/orboan/jupyter-wsl/.config/Code/User/workspaceStorage/187cf76e/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
-2023-04-24 08:08:36.663 [info] Extension host with pid 29314 exiting with code 0

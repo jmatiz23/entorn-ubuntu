@@ -1,0 +1,9 @@
+#!/bin/sh
+if [ -z "$NB_USER" ]; then
+        NB_USER=$USER
+fi
+
+export net=entornet  
+cd /home/$NB_USER/.docker/jetty
+#DOCKER_HOST=tcp://127.0.0.1:2375 
+/usr/local/bin/docker-compose down

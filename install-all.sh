@@ -11,7 +11,7 @@ if [ ! -e "scripts" ]; then
 fi
 
 if [ ! -e "jetty" ]; then
-        ln -s ../jetty ./jetty
+        ln -s ../jetty-server ./jetty
 fi
 
 \cp ./resources/config/.bashrc $HOME/
