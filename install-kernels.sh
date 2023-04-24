@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd kernels/
+
 ./tslabs-kernel.sh
 
 ./java-kernel.sh
@@ -8,4 +10,6 @@
 
 ./customize-lab-themes.sh
 
-jupyter kernelspec list
+cd ..
+
+#jupyter kernelspec list
