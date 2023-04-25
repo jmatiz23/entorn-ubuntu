@@ -64,7 +64,9 @@ echo ""
 echo ">>>>>>>>>>>>>>>>>>>> adding docker group <<<<<<<<<<<<<<<<<<<<<<"
 echo ""
 
-sudo groupadd docker && sudo usermod -aG docker $NB_USER && sudo mkdir -p /var/lib/docker
+sudo groupadd docker || echo "docker group not added"
+sudo usermod -aG docker $NB_USER
+sudo mkdir -p /var/lib/docker
 
 echo ""
 echo "Installing docker-compose ..."
