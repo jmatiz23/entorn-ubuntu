@@ -15,4 +15,4 @@ if [ -n "$BASH_VERSION" ]; then
         . "$HOME/.bashrc"
     fi
 fi
-DISPLAY=$(route.exe print | grep 0.0.0.0 | head -1 | awk '{print $4}'):0.0
+DISPLAY=$(route.exe print | grep 0.0.0.0 2> /dev/null | head -1 | awk '{print $4}'):0.0
