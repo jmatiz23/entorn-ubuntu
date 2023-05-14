@@ -9,11 +9,13 @@ sudo apt-get update
 sudo apt-get upgrade --yes
 sudo apt autoremove --yes
 
-cd ~
-wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
-chmod +x Miniconda3-latest-Linux-x86_64.sh
-sh Miniconda3-latest-Linux-x86_64.sh -bufp /opt/miniconda3
-rm Miniconda3-latest-Linux-x86_64.sh
+if [ ! -d "$CONDA_PREFIX" ]; then
+	cd ~
+	wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+	chmod +x Miniconda3-latest-Linux-x86_64.sh
+	sh Miniconda3-latest-Linux-x86_64.sh -bufp /opt/miniconda3
+	rm Miniconda3-latest-Linux-x86_64.sh
+fi
 
 
 /opt/miniconda3/bin/conda update conda --yes

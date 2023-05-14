@@ -35,6 +35,4 @@ fi
 sdk install maven
 sdk install gradle
 
-echo 'source "$SDKMAN_DIR/bin/sdkman-init.sh"' >> 
-
 exit 0

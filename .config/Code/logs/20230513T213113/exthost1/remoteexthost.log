@@ -1,0 +1,6 @@
+2023-05-13 21:31:18.551 [info] Extension host with pid 3825 started
+2023-05-13 21:31:18.575 [info] Lock '/home/orboan/entorn-wsl/.config/Code/User/workspaceStorage/187cf76e/vscode.lock': Lock acquired.
+2023-05-13 21:31:18.683 [info] Eager extensions activated
+2023-05-13 21:31:22.807 [info] Extension host terminating: received terminate message from renderer
+2023-05-13 21:31:22.808 [info] Lock '/home/orboan/entorn-wsl/.config/Code/User/workspaceStorage/187cf76e/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2023-05-13 21:31:22.809 [info] Extension host with pid 3825 exiting with code 0

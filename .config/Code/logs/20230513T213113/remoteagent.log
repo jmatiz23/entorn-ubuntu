@@ -1,0 +1,91 @@
+2023-05-13 21:31:13.834 [info] 
+
+
+
+
+2023-05-13 21:31:13.834 [info] Extension host agent started.
+2023-05-13 21:31:13.834 [info] Started initializing default profile extensions in extensions installation folder. file:///home/orboan/entorn-wsl/.vscode/extensions
+2023-05-13 21:31:13.836 [error] Error: Unable to resolve nonexistent file '/home/orboan/entorn-wsl/.vscode/extensions'
+    at w.resolve (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:92:18144)
+    at async fe.k (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:56575)
+    at async fe.scanExtensions (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:56323)
+    at async p.scanUserExtensions (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:48844)
+    at async /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:50948
+    at async p.initializeDefaultProfileExtensions (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:50724)
+    at async k.m (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:115:1199)
+2023-05-13 21:31:13.857 [error] Error: Unable to resolve nonexistent file '/home/orboan/entorn-wsl/.vscode/extensions'
+    at w.resolve (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:92:18144)
+    at async fe.k (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:56575)
+    at async fe.scanExtensions (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:56323)
+    at async p.scanUserExtensions (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:48844)
+    at async ie.scanAllUserExtensions (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:155:11995)
+    at async k.C (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:115:3591)
+    at async k.m (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:115:1291)
+2023-05-13 21:31:14.796 [error] Error: Unable to resolve nonexistent file '/home/orboan/entorn-wsl/.vscode/extensions'
+    at w.resolve (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:92:18144)
+    at async ne.mb (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:155:9505)
+2023-05-13 21:31:16.561 [info] [127.0.0.1][a7f0f410][ManagementConnection] New connection established.
+2023-05-13 21:31:16.789 [warning] Using the in-memory credential store as the operating system's credential store could not be accessed. Please see https://aka.ms/vscode-server-keyring on how to set this up. Details: Error spawning command line “dbus-launch --autolaunch=ae9f707d00ec859d753397d4624b0312 --binary-syntax --close-stderr”: Child process exited with code 1
+2023-05-13 21:31:17.491 [info] Started initializing default profile extensions in extensions installation folder. file:///home/orboan/entorn-wsl/.vscode/extensions
+2023-05-13 21:31:17.661 [error] Error: Unable to resolve nonexistent file '/home/orboan/entorn-wsl/.vscode/extensions'
+    at w.resolve (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:92:18144)
+    at async fe.k (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:56575)
+    at async fe.scanExtensions (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:56323)
+    at async p.scanUserExtensions (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:48844)
+    at async /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:50948
+2023-05-13 21:31:17.885 [info] [127.0.0.1][b18ab929][ExtensionHostConnection] New connection established.
+2023-05-13 21:31:17.899 [info] [127.0.0.1][b18ab929][ExtensionHostConnection] <3825> Launched Extension Host Process.
+2023-05-13 21:31:18.023 [info] Started initializing default profile extensions in extensions installation folder. file:///home/orboan/entorn-wsl/.vscode/extensions
+2023-05-13 21:31:18.249 [error] Error: Unable to resolve nonexistent file '/home/orboan/entorn-wsl/.vscode/extensions'
+    at w.resolve (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:92:18144)
+    at async fe.k (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:56575)
+    at async fe.scanExtensions (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:56323)
+    at async p.scanUserExtensions (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:48844)
+    at async /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:50948
+2023-05-13 21:31:18.537 [info] Started initializing default profile extensions in extensions installation folder. file:///home/orboan/entorn-wsl/.vscode/extensions
+2023-05-13 21:31:18.760 [error] Error: Unable to resolve nonexistent file '/home/orboan/entorn-wsl/.vscode/extensions'
+    at w.resolve (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:92:18144)
+    at async fe.k (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:56575)
+    at async fe.scanExtensions (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:56323)
+    at async p.scanUserExtensions (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:48844)
+    at async /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:50948
+2023-05-13 21:31:18.766 [info] Started initializing default profile extensions in extensions installation folder. file:///home/orboan/entorn-wsl/.vscode/extensions
+2023-05-13 21:31:18.983 [error] Error: Unable to resolve nonexistent file '/home/orboan/entorn-wsl/.vscode/extensions'
+    at w.resolve (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:92:18144)
+    at async fe.k (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:56575)
+    at async fe.scanExtensions (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:56323)
+    at async p.scanUserExtensions (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:48844)
+    at async /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:50948
+2023-05-13 21:31:19.857 [info] Started initializing default profile extensions in extensions installation folder. file:///home/orboan/entorn-wsl/.vscode/extensions
+2023-05-13 21:31:19.918 [error] Error: Unable to resolve nonexistent file '/home/orboan/entorn-wsl/.vscode/extensions'
+    at w.resolve (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:92:18144)
+    at async fe.k (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:56575)
+    at async fe.scanExtensions (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:56323)
+    at async p.scanUserExtensions (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:48844)
+    at async /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:50948
+    at async p.scanUserExtensions (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:48967)
+    at async Promise.all (index 1)
+    at async p.scanAllExtensions (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:48018)
+    at async ie.scanExtensions (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:155:11775)
+    at async m.call (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:87:25730)
+2023-05-13 21:31:19.972 [info] Started initializing default profile extensions in extensions installation folder. file:///home/orboan/entorn-wsl/.vscode/extensions
+2023-05-13 21:31:20.024 [error] Error: Unable to resolve nonexistent file '/home/orboan/entorn-wsl/.vscode/extensions'
+    at w.resolve (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:92:18144)
+    at async fe.k (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:56575)
+    at async fe.scanExtensions (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:56323)
+    at async p.scanUserExtensions (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:48844)
+    at async /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:50948
+    at async p.scanUserExtensions (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:48967)
+    at async Promise.all (index 1)
+    at async p.scanAllExtensions (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:48018)
+    at async ie.scanExtensions (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:155:11775)
+    at async m.call (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:87:25730)
+2023-05-13 21:31:20.047 [info] Started initializing default profile extensions in extensions installation folder. file:///home/orboan/entorn-wsl/.vscode/extensions
+2023-05-13 21:31:20.050 [error] Error: Unable to resolve nonexistent file '/home/orboan/entorn-wsl/.vscode/extensions'
+    at w.resolve (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:92:18144)
+    at async fe.k (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:56575)
+    at async fe.scanExtensions (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:56323)
+    at async p.scanUserExtensions (/usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:48844)
+    at async /usr/lib/code-server/lib/vscode/out/vs/server/node/server.main.js:141:50948
+2023-05-13 21:31:22.809 [info] [127.0.0.1][a7f0f410][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-05-13 21:31:22.822 [info] [127.0.0.1][b18ab929][ExtensionHostConnection] <3825> Extension Host Process exited with code: 0, signal: null.
