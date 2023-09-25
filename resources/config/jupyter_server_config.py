@@ -45,5 +45,15 @@ c.ServerProxy.servers = {
               'icon_path': '/resources/icons/jetty.svg',
               'title': 'Jetty',
       },
-    },    
+    },   
+    'pgadmin': {
+      'command': [f'{home}/.local/bin/pg-start','{port}'],
+      'timeout': 180,
+      'port': 5050,
+      'absolute_url': False,
+      'launcher_entry': {
+              'title': 'Pgadmin',
+              'icon_path': '/resources/icons/postgres.svg'
+      }
+    },
 }

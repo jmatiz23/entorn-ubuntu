@@ -1,0 +1,20 @@
+2023-09-24 15:10:42.396 [info] Extension host with pid 6513 started
+2023-09-24 15:10:42.396 [error] Error: listen EACCES: permission denied /run/user/1000/vscode-ipc-be8cd0ea-5ecf-48e1-b638-82f7ebc67973.sock
+	at Server.setupListenHandle [as _listen2] (node:net:1446:21)
+	at listenInCluster (node:net:1511:12)
+	at Server.listen (node:net:1610:5)
+	at e.$DL.g (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:127:22961)
+	at new g (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:127:22876)
+	at new e.$DL (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:127:24930)
+	at w.j (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:85:1241)
+	at w.createInstance (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:85:733)
+	at u.pb (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:127:25868)
+	at u.initialize (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:113:8026)
+	at new c (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:117:1334)
+	at d (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:127:32782)
+2023-09-24 15:10:42.398 [error] Error: EEXIST: file already exists, open '/home/orboan/entorn-wsl/proxy/.config/Code/User/workspaceStorage/52f8a8fa/vscode.lock'
+2023-09-24 15:10:42.399 [info] Lock '/home/orboan/entorn-wsl/proxy/.config/Code/User/workspaceStorage/52f8a8fa/vscode.lock': Could not acquire lock, checking if the file is stale.
+2023-09-24 15:10:42.399 [info] Lock '/home/orboan/entorn-wsl/proxy/.config/Code/User/workspaceStorage/52f8a8fa/vscode.lock': The pid 5206 appears to be gone.
+2023-09-24 15:10:42.400 [info] Lock '/home/orboan/entorn-wsl/proxy/.config/Code/User/workspaceStorage/52f8a8fa/vscode.lock': Deleting a stale lock.
+2023-09-24 15:10:42.410 [info] Lock '/home/orboan/entorn-wsl/proxy/.config/Code/User/workspaceStorage/52f8a8fa/vscode.lock': Lock acquired.
+2023-09-24 15:10:42.451 [info] Eager extensions activated

@@ -18,5 +18,8 @@ rm -f $bindir/$0
 sudo apt update
 sudo apt install mysql-client-core-8.0 libgbm1 libwayland-server0  -y
 
+\cp ./config.json $dockerdir/
+chmod 600 $dockerdir/config.json
+
 exit 0
 

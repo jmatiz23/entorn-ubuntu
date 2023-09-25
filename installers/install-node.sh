@@ -12,9 +12,14 @@ echo "Installing node..."
 echo ""
 
 sudo apt-get update
-# https://nodejs.org/en/about/releases/ use even numbered releases, i.e. LTS versions
-curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash - 
-sudo apt-get install -y nodejs 
+sudo apt-get install -y ca-certificates curl gnupg
+sudo mkdir -p /etc/apt/keyrings
+curl -fsSL https://deb.nodesource.com/gpgkey/nodesource-repo.gpg.key | sudo gpg --dearmor -o /etc/apt/keyrings/nodesource.gpg
+NODE_MAJOR=20
+echo "deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesource.com/node_$NODE_MAJOR.x nodistro main" | sudo tee /etc/apt/sources.list.d/nodesource.list
+sudo apt-get update
+sudo apt-get install nodejs -y
+
 # As conda is first in path, the commands 'node' and 'npm' reference to the version of conda.
 # Replace those versions with the newly installed versions of node
 rm -f $CONDA_PREFIX/bin/node && sudo ln -s /usr/bin/node $CONDA_PREFIX/bin/node

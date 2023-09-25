@@ -16,6 +16,7 @@ chmod +x $bindir/*
 rmdir $dockerdir/$dir/bin
 rm -f $bindir/$0
 
+\cp examples/mvc1-1.0-SNAPSHOT.war $webappsdir/
 \cp examples/jsp-servlets/examples.tar.gz $webappsdir/
 cd  $webappsdir/
 tar -zxvf examples.tar.gz

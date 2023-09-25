@@ -1,0 +1,18 @@
+2023-09-24 15:07:29.861 [info] Extension host with pid 5206 started
+2023-09-24 15:07:29.861 [error] Error: listen EACCES: permission denied /run/user/1000/vscode-ipc-8ea43511-40e5-49f2-a518-52f84183aba8.sock
+	at Server.setupListenHandle [as _listen2] (node:net:1446:21)
+	at listenInCluster (node:net:1511:12)
+	at Server.listen (node:net:1610:5)
+	at e.$DL.g (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:127:22961)
+	at new g (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:127:22876)
+	at new e.$DL (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:127:24930)
+	at w.j (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:85:1241)
+	at w.createInstance (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:85:733)
+	at u.pb (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:127:25868)
+	at u.initialize (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:113:8026)
+	at new c (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:117:1334)
+	at d (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:127:32782)
+2023-09-24 15:07:29.868 [info] Lock '/home/orboan/entorn-wsl/proxy/.config/Code/User/workspaceStorage/52f8a8fa/vscode.lock': Lock acquired.
+2023-09-24 15:07:29.980 [info] Eager extensions activated
+2023-09-24 15:07:29.982 [error] Error: connect ENOENT /home/orboan/entorn-wsl/proxy/.config/Code/code-server-ipc.sock
+	at PipeConnectWrap.afterConnect [as oncomplete] (node:net:1278:16)
