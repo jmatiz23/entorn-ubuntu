@@ -1,0 +1,38 @@
+#!/bin/bash
+
+user_id=$(id -u)
+
+# Define the directory path
+directory="/run/user/$user_id"
+
+# Check if the directory exists
+if [ -d "$directory" ]; then
+
+   # Use the stat command to retrieve the owner's UID of the directory
+   owner_uid=$(stat -c "%u" "$directory")
+
+   # Check if the directory is owned by the user with the specified UID
+   if [ "$owner_uid" -eq "$user_id" ]; then
+       echo "Directory $directory is owned by user $user_id."
+   else
+       echo "Setting $user_id as owner of $directory..."
+       sudo chown $user_id $directory
+   fi
+else
+    echo "Directory $directory does not exist."
+fi
+
+vncdir="$HOME/.vnc"
+
+
+if [ ! -z "$1" ]
+then
+        display=$1
+else
+        display=1
+fi
+
+vncserver -xstartup $vncdir/xstartup -geometry 1920x1080 -SecurityTypes None -name entorn -fg :$display &
+#vncserver -verbose -xstartup $vncdir/xstartup -geometry 1920x1080 -SecurityTypes None -name entorn -fg :$display & 
+
+exit 0

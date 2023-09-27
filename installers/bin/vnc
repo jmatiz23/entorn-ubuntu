@@ -1,0 +1,43 @@
+#!/bin/bash
+
+if [ "$1" == "start" ]; then
+    vnc-start
+    exit 0
+fi
+
+if [ "$1" == "stop" ]; then
+    vnc-stop
+    exit 0
+fi
+
+if [ "$1" == "status" ]; then
+    vnc-status
+    exit 0
+fi
+
+##
+# Color  Variables
+##
+green='\e[32m'
+clear='\e[0m'
+
+##
+# Color Functions
+##
+
+ColorGreen(){
+        echo -ne $green$1$clear
+}
+
+
+echo "Usage:"
+echo ""
+echo "To start the VNC server:"
+echo "$(ColorGreen 'vnc start')"
+echo ""
+echo "To stop the VNC server:"
+echo "$(ColorGreen 'vnc stop')"
+echo ""
+echo "To check the status of the VNC server:"
+echo "$(ColorGreen 'vnc status')"
+echo ""

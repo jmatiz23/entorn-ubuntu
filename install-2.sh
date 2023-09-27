@@ -16,11 +16,11 @@ cd jetty
 ./install.sh
 cd ..
 
-#./install-gui.sh
+./install-gui.sh
 
 ./install-chrome.sh
 
-# ./install-turbovnc.sh
+./install-turbovnc.sh
 
 cd ..
 exit 0

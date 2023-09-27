@@ -1,0 +1,8 @@
+#!/bin/sh
+cd "$HOME"
+eval $(/usr/bin/dbus-launch --sh-syntax --exit-with-session)
+
+xrdb "$HOME/.Xresources"
+xsetroot -solid "#651D38"
+
+startxfce4
