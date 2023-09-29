@@ -1,0 +1,51 @@
+#!/bin/bash
+
+if [ "$1" == "start" ]; then
+    proxy-start
+    exit 0
+fi
+
+if [ "$1" == "stop" ]; then
+    proxy-stop
+    exit 0
+fi
+
+if [ "$1" == "restart" ]; then
+    proxy-restart
+    exit 0
+fi
+
+if [ "$1" == "status" ]; then
+    proxy-status
+    exit 0
+fi
+
+##
+# Color  Variables
+##
+green='\e[32m'
+clear='\e[0m'
+
+##
+# Color Functions
+##
+
+ColorGreen(){
+        echo -ne $green$1$clear
+}
+
+
+echo "Usage:"
+echo ""
+echo "To start the Nginx proxy:"
+echo "$(ColorGreen 'proxy start')"
+echo ""
+echo "To restart the Nginx proxy:"
+echo "$(ColorGreen 'proxy restart')"
+echo ""
+echo "To stop the Nginx proxy:"
+echo "$(ColorGreen 'proxy stop')"
+echo ""
+echo "To check the status of the Nginx proxy:"
+echo "$(ColorGreen 'proxy status')"
+echo ""

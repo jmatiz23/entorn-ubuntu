@@ -12,7 +12,7 @@ services:
       - ./nginx/certs/pluralcamp.com/key.pem:/etc/nginx/certs/pluralcamp.com/pluralcamp.com.key
         #- ./nginx/certs/pluralcamp.com/fullchain.pem:/etc/nginx/certs/pluralcamp.com/fullchain.cer
         #- ./nginx/certs/pluralcamp.com/privkey.pem:/etc/nginx/certs/pluralcamp.com/pluralcamp.com.key
-    ports:
-      - 443:443
+    #ports:
+      #  - 443:443
     network_mode: "host"
     restart: unless-stopped

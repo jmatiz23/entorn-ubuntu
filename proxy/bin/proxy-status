@@ -1,0 +1,8 @@
+#!/bin/bash
+
+res=`docker ps -a | grep nginx`
+echo $res
+if [ -z "$res" ]; then
+	echo "Proxy not found"
+	echo ""
+fi

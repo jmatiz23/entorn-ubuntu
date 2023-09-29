@@ -1,0 +1,7 @@
+#!/bin/bash
+
+dockerdir="$HOME/.docker/proxy"
+
+cd $dockerdir
+docker-compose down
+

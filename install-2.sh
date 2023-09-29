@@ -23,4 +23,8 @@ cd ..
 ./install-turbovnc.sh
 
 cd ..
+
+\cp ./entorn $HOME/.local/bin/
+chmod +x  $HOME/.local/bin/entorn
+
 exit 0

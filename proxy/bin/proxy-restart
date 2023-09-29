@@ -1,6 +1,8 @@
 #!/bin/bash
 
+dockerdir="$HOME/.docker/proxy"
+
+cd $dockerdir
 docker-compose down
 docker-compose up -d
-sleep 2
-docker ps -a | grep nginx
+exit 0
