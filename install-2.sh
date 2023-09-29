@@ -18,6 +18,8 @@ cd ..
 
 ./install-gui.sh
 
+./customize-desktop.sh
+
 ./install-chrome.sh
 
 ./install-turbovnc.sh

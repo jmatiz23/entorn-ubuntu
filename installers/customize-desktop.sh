@@ -10,4 +10,4 @@ if [ ! -f "$xfce4_config_user_dir/lock" ]; then
         \cp -r $RESOURCES_PATH/config/xfce4/* $xfce4_config_user_dir/
         chown $NB_USER:$NB_USER -R $xfce4_config_user_dir/
 fi
-
+sudo \cp resources/images/* /usr/share/backgrounds/xfce/
