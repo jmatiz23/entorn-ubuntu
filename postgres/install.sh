@@ -23,7 +23,7 @@ sudo apt update && sudo apt install --no-install-recommends -y postgresql-client
 ######
 ## Jupyter Server Proxy config:
 CONFIG_NB_FILE=/etc/jupyter/jupyter_server_config.py
-cat ./proxy-server.entorn-io.py >> $CONFIG_NB_FILE
+#sudo sh -c "cat ./proxy-server.entorn-io.py >> $CONFIG_NB_FILE"
 
 
 ## for docker login

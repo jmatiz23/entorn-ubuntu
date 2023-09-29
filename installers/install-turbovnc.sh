@@ -20,7 +20,7 @@ sudo ln -s /opt/TurboVNC/bin/* /usr/local/bin/ || echo "symlinks already exist"
 
 sudo apt update && sudo apt install -y at-spi
 
-mkdir -p $HOME/.local/bin/
+mkdir -p $HOME/.local/bin/ $HOME/.vnc/
 
 \cp ./bin/vnc* $HOME/.local/bin/
 
