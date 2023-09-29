@@ -39,23 +39,35 @@ echo
 echo 'https://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/technology/epp/downloads/release/'
 echo
 
+eclipse_url=""
+
 if [ "$1" != "nodownload" ]; then
-        echo "Enter the URL for the Eclipse gzipped tarball:"
 	if [ "$1" == "askurl" ]; then
+		echo "Enter the URL for the Eclipse gzipped tarball:"
 	        read eclipse_url
 	else
-		eclipse_url="https://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/technology/epp/downloads/release/2023-03/R/eclipse-jee-2023-03-R-linux-gtk-x86_64.tar.gz"
+		eclipse_url="https://www.mirrorservice.org/sites/download.eclipse.org/eclipseMirror/technology/epp/downloads/release/2023-09/R/eclipse-dsl-2023-09-R-linux-gtk-x86_64.tar.gz"
 	fi
         echo
         echo "Attention: java must be already installed"
         echo 
-        echo "Downloading Eclipse..."
-        wget -O eclipse.tar.gz "$eclipse_url"
-        echo "Installing eclipse..."
-        tar xvf eclipse.tar.gz
-        sudo rm -rf /opt/apps/eclipse
-        sudo mv eclipse /opt/apps/
-        rm -f eclipse.tar.gz
+	downloaded="yes"
+        if [[ ! -z "$eclipse_url" ]]; then
+	  echo "Downloading Eclipse..."
+	  wget -O eclipse.tar.gz "$eclipse_url" || downloaded="no"
+          if [[ "$downloaded" == "no" ]]; then
+		  rm -f ./eclipse.tar.gz
+		  echo "Error: eclipse could not be downloaded"
+		  exit 1
+	  fi	    
+	  if [[ "$downloaded" == "yes" ]]; then
+	    echo "Installing eclipse..."
+            tar xzf eclipse.tar.gz 2> /dev/null
+            sudo rm -rf /opt/apps/eclipse
+            sudo mv eclipse /opt/apps/
+            rm -f ./eclipse.tar.gz
+	  fi
+	fi
 fi
 
 mkdir -p  /home/${NB_USER}/.local/share/applications /home/${NB_USER}/Desktop
