@@ -42,6 +42,17 @@ sudo sh -c "echo \"root:pluralcamp\" | chpasswd "
 
 cd ..
 
+wsl_config_file="/etc/wsl.conf"
+
+sudo rm -f $wsl_config_file
+sudo touch $wsl_config_file
+
+echo '[general]' | sudo tee -a $wsl_config_file  > /dev/null  
+echo 'guiApplications=false' | sudo tee -a $wsl_config_file  > /dev/null
+echo '[boot]' | sudo tee -a $wsl_config_file  > /dev/null
+echo '[systemd=true]' | sudo tee -a $wsl_config_file  > /dev/null
+
+
 /opt/miniconda3/bin/conda init bash
 echo "Logout and log in again, now."
 
