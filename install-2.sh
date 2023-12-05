@@ -19,6 +19,7 @@ sleep 2
 sleep 2
 
 ./install-eclipse.sh
+./install-netbeans.sh
 
 cd jetty
 ./install.sh
