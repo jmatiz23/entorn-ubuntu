@@ -1,5 +1,13 @@
 #!/bin/bash
 
+sudo locale-gen en_US.utf8
+sudo update-locale
+
+if [ -d "/tmp/.X11-unix" ]; then 
+	sudo rm -rf /tmp/.X11-unix/*
+	sudo chmod 0777 /tmp/.X11-unix
+fi
+
 cd ./installers
 
 ./install-node.sh
