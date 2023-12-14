@@ -52,6 +52,8 @@ echo 'guiApplications=false' | sudo tee -a $wsl_config_file  > /dev/null
 echo '[boot]' | sudo tee -a $wsl_config_file  > /dev/null
 echo '[systemd=true]' | sudo tee -a $wsl_config_file  > /dev/null
 
+sudo chmod 0777 /tmp/.X11-unix
+
 
 /opt/miniconda3/bin/conda init bash
 echo "Logout and log in again, now."

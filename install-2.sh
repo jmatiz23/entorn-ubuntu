@@ -3,10 +3,6 @@
 sudo locale-gen en_US.utf8
 sudo update-locale
 
-if [ -d "/tmp/.X11-unix" ]; then 
-	sudo rm -rf /tmp/.X11-unix/*
-	sudo chmod 0777 /tmp/.X11-unix
-fi
 
 cd ./installers
 
@@ -35,7 +31,28 @@ cd ..
 
 cd ..
 
+cd ./mysql
+
+./install.sh
+
+cd ../postgres
+
+./install.sh
+
+cd ../proxy
+
+./install.sh
+
+cd ..
+
+
 \cp ./entorn $HOME/.local/bin/
 chmod +x  $HOME/.local/bin/entorn
+
+if [ -d "/tmp/.X11-unix" ]; then
+        sudo rm -rf /tmp/.X11-unix/*
+        sudo chmod 0777 /tmp/.X11-unix
+fi
+
 
 exit 0

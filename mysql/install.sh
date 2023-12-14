@@ -21,5 +21,14 @@ sudo apt install mysql-client-core-8.0 libgbm1 libwayland-server0  -y
 \cp ./config.json $dockerdir/
 chmod 600 $dockerdir/config.json
 
+conf_file="${HOME}/.my.cnf"
+echo "[client]" > $conf_file
+echo "socket=/var/run/mysqld/mysqld.sock" >> $conf_file
+echo
+echo "To start MySQL server, run: my start"
+echo
+echo "Client Connection command:"
+echo "mysql -u$(whoami) -ppluralcamp"
+echo
 exit 0
 

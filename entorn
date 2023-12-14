@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sudo dockerd &
+
 vnc start
 
 
